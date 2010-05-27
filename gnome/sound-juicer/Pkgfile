@@ -2,7 +2,7 @@
 # URL: http://www.burtonini.com/blog/computers/sound-juicer/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: libmusicbrainz, libgnomeui, gst-plugins-base, gst-plugins-bad, gst-plugins-ugly, gst-plugins-good, gnome-doc-utils, nautilus-cd-burner, gnome-media
+# Depends on: libmusicbrainz, libgnomeui, gst-plugins-base, gst-plugins-bad, gst-plugins-ugly, gst-plugins-good, gnome-doc-utils, nautilus-cd-burner, gnome-media, brasero
 
 name=sound-juicer
 version=2.28.2
