@@ -9,8 +9,8 @@ version=0.9.4.4128
 
 _version=trunk
 snapshot=r4128-20100325
-_kernver=2.6.33-NuTyX
-release=1
+_kernver=`uname -r`
+release=2
 
 #source=(ftp://ftp.archlinux.org/other/$name/$name-$version.tar.bz2)
 
