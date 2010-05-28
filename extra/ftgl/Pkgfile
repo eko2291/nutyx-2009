@@ -2,7 +2,8 @@
 # URL: http://sourceforge.net/projects/ftgl/develop
 # Maintainer: NuTyX core team
 # Packager: charles dot rapenne at gmail dot com
-# Depends on: 
+# Depends on: freetype, mesa3d
+
 name=ftgl
 version=2.1.3-rc5
 _version=2.1.3~rc5
