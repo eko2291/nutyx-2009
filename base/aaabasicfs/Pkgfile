@@ -2,10 +2,9 @@
 # URL: http://www.nutyx.org/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on:
 
 name=aaabasicfs
-version=2009.3
+version=2009.4
 release=1
 scriptsversion=lfs-bootscripts-20100124
 source=(  http://www.linuxfromscratch.org/lfs/downloads/development/$scriptsversion.tar.bz2\
