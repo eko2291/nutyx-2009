@@ -1,11 +1,11 @@
-# Description: Une reecriture de l'assembleur NASM sous licence BSD
+# Description: Une réécriture de l'assembleur NASM sous licence BSD
 # URL: http://www.tortall.net/projects/yasm/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
 # Depends on:
 
 name=yasm
-version=0.7.2
+version=1.0.1
 release=1
 source=(http://www.tortall.net/projects/$name/releases/$name-$version.tar.gz )
 
