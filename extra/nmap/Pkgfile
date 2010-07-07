@@ -2,12 +2,12 @@
 # URL: http://insecure.org/nmap/
 # Maintainer: NuTyX core team
 # Packager: thierryn1 at hispeed dot ch
-# Depends on: python
+# Depends on:
 
 name=nmap
 version=5.21
-#4.85BETA9
 release=1
+
 source=(http://nmap.org/dist/$name-$version.tar.bz2)
 
 
