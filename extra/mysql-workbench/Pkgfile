@@ -1,0 +1,18 @@
+# Description: Outils graphiques pour administrer MySQL
+# URL: http://www.mysql.com/products/workbench/
+# Maintainer: NuTyX core team
+# Packager: manu_pkg at yahoo dot fr
+# Depends on: autoconf,automake,libtool,libzip,libxml2,libsigc++,libglade,gtkmm,libmysql,lua,xorg-libpixman,pcre,libgnome,gtk,pango,cairo,python,boost,python-paramiko,alsa-lib
+
+name=mysql-workbench
+version=5.2.25
+release=1
+source=(ftp://mirrors.ircam.fr/pub/mysql/Downloads/MySQLGUITools/mysql-workbench-gpl-$version.tar.gz)
+
+
+build() {
+	cd $name-gpl-$version
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
