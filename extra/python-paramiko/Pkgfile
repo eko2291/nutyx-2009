@@ -1,0 +1,16 @@
+# Description: module ssh pour Python
+# URL: http://www.lag.net/paramiko/
+# Maintainer: NuTyX core team
+# Packager: manu_pkg at yahoo dot fr
+# Depends on: python,pycrypto
+
+name=python-paramiko
+version=1.7.6
+release=1
+source=(http://www.lag.net/paramiko/download/paramiko-$version.tar.gz)
+
+
+build() {
+	cd paramiko-$version
+	python setup.py build install --root=$PKG
+}
