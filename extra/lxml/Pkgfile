@@ -1,0 +1,16 @@
+# Description: librairie python pour le traitement du XML
+# URL: http://pypi.python.org/pypi/lxml
+# Maintainer: NuTyX core team
+# Packager: skingrapher at legtux dot org
+# Depends on: libxml2, libxslt, python
+
+name=lxml
+version=2.2.4
+release=1
+source=(http://pypi.python.org/packages/source/l/$name/$name-$version.tar.gz)
+
+build() {
+cd $name-$version
+	python setup.py install --root=$PKG
+}
+
