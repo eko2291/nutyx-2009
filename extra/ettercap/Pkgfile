@@ -1,0 +1,17 @@
+# Description: Ettercap-ng permet de faire du sniffing, man in the middle, dns spoof... très facilement, sous windows, il est préférable d'utiliser cail & abel pour un MITM, cain & abel n'est pas compatible linux. Il est aussi préférable d'utiliser ettercap en CLI, le GUI crash régulièrement. Activation du forward, pour ne pas bloquer la connexion
+# URL: http://ettercap.sourceforge.net/
+# Maintainer: NuTyX core team
+# Packager: super_packager at robotsspammeurs dot fr
+# Depends on: libpcap, libpthread-stubs, zlib, ncurses, pcre, openssl, libtool, glib, gtk, atk, pango, pkg-config 
+name=ettercap
+version=NG-0.7.3
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
+
+build() {
+cd $name-$version
+        ./configure --prefix=/usr
+        make
+        make DESTDIR=$PKG install
+}
+
