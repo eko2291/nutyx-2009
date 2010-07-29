@@ -1,0 +1,5 @@
+drwxr-xr-x	eko2291/eko2291	etc/
+-rw-r--r--	eko2291/eko2291	etc/minidlna.conf
+drwxr-xr-x	eko2291/eko2291	usr/
+drwxr-xr-x	eko2291/eko2291	usr/sbin/
+-rwxr-xr-x	eko2291/eko2291	usr/sbin/minidlna

@@ -1,0 +1,16 @@
+# Description: : MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients. It is developed by a NETGEAR employee for the ReadyNAS product line. So if you are looking for a NAS, please consider ReadyNAS first! 
+# URL: http://sourceforge.net/projects/minidlna/
+# Maintainer: NuTyX core team
+# Packager: eko2291 at gmail dot com
+# Depends on: libexif, libjpeg, libid3tag, flac, libvorbis, sqlite3, ffmpeg, util-linux-ng, cvs
+name=minidlna
+version=1.0.18
+release=1
+source=(http://switch.dl.sourceforge.net/project/minidlna/minidlna/1.0.18/minidlna_1.0.18_src.tar.gz)
+
+build() {
+cd $name
+        make
+        make PREFIX=$PKG install
+}
+
