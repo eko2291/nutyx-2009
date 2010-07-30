@@ -2,10 +2,10 @@
 # URL: http://ettercap.sourceforge.net/
 # Maintainer: NuTyX core team
 # Packager: super_packager at robotsspammeurs dot fr
-# Depends on: libpcap, libpthread-stubs, zlib, ncurses, pcre, openssl, libtool, glib, gtk, atk, pango, pkg-config 
+# Depends on: libnet, libpcap, libpthread-stubs, zlib, ncurses, pcre, openssl, libtool, glib, gtk, atk, pango, pkg-config 
 name=ettercap
 version=NG-0.7.3
-release=1
+release=2
 source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 
 build() {
